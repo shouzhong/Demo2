@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="88pt"
+        android:layout_height="88pt"
+        android:paddingTop="26pt"
+        android:paddingBottom="26pt"
+        android:paddingLeft="30pt"
+        android:paddingRight="22pt"
+        android:src="@drawable/ic_arrow_left"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="88pt"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:textColor="#333333"
+        android:textSize="36pt"
+        android:text="测试"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="88pt"/>
+</RelativeLayout>

@@ -1,9 +1,9 @@
 package com.shouzhong.flutter.demo2
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import io.flutter.embedding.android.FlutterActivity
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickFlutter(view: View) {
-        startActivity(FlutterActivity.withCachedEngine("my_engine_id").build(this))
+        startActivity(Intent(this, FlutterTest1Activity::class.java))
     }
 }
