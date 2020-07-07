@@ -11,17 +11,18 @@ import io.flutter.view.FlutterMain
 
 
 class MyApp : Application() {
-//    lateinit var flutterEngine : FlutterEngine
+    lateinit var flutterEngine : FlutterEngine
+
     override fun onCreate() {
         super.onCreate()
-        FlutterMain.startInitialization(this)
+//        FlutterMain.startInitialization(this)
 //        flutterEngine = FlutterEngine(this)
-////        可设置初始路由
-////        flutterEngine.getNavigationChannel().setInitialRoute("your/route/here");
+//        可设置初始路由
+//        flutterEngine.getNavigationChannel().setInitialRoute("your/route/here");
 //        flutterEngine.dartExecutor.executeDartEntrypoint(DartExecutor.DartEntrypoint.createDefault())
 //        FlutterEngineCache.getInstance().put("my_engine_id", flutterEngine)
     }
-//
+
 //    override fun onTerminate() {
 //        flutterEngine.destroy()
 //        super.onTerminate()

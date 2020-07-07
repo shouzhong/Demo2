@@ -31,6 +31,7 @@
         </activity>
 
         <activity android:name=".FlutterTest1Activity" />
+        <activity android:name=".Test2Activity" />
     </application>
 
 </manifest>
