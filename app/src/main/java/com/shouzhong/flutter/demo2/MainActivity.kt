@@ -14,4 +14,8 @@ class MainActivity : AppCompatActivity() {
     fun onClickFlutter(view: View) {
         startActivity(Intent(this, FlutterTest1Activity::class.java))
     }
+
+    fun onClickLogin(view: View) {
+        startActivity(Intent(this, Test2Activity::class.java))
+    }
 }
