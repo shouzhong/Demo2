@@ -19,4 +19,11 @@
         android:layout_centerInParent="true"
         android:text="login"
         android:onClick="onClickLogin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="web"
+        android:onClick="onClickWeb"/>
 </LinearLayout>

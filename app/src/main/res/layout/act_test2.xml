@@ -9,7 +9,8 @@
         android:paddingBottom="26pt"
         android:paddingLeft="30pt"
         android:paddingRight="22pt"
-        android:src="@drawable/ic_arrow_left"/>
+        android:src="@drawable/ic_arrow_left"
+        android:onClick="onClickBack"/>
 
     <TextView
         android:layout_width="wrap_content"

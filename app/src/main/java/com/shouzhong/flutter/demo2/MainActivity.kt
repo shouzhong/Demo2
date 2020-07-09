@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
     fun onClickLogin(view: View) {
         startActivity(Intent(this, Test2Activity::class.java))
     }
+
+    fun onClickWeb(v: View) {
+        startActivity(Intent(this, Test3Activity::class.java))
+    }
 }
